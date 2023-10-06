@@ -1,0 +1,131 @@
+/* Estilos para la página de resultados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.index-page{
+    max-width:50%;
+    margin: 20px auto;
+    padding: 10px; /* Reduje el espacio interior del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.formulario-seccion{
+    margin: 20px 50px;
+}
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 1;
+}
+
+/* Estilos para el enlace "Volver a la página principal" */
+.volver-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Estilo específico para el botón "Agregar más registros" */
+#agregar {
+    background-color: #28a745;
+    margin-left: 10px;
+}
+
+/* Estilo específico para el botón "Borrar todos los registros" */
+#borrar {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+/* Estilos para el contenedor de botones */
+.botones {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Estilo específico para el botón "Borrar todos los registros" */
+.borrar-todos {
+    background-color: #dc3545; /* Cambia el color del botón según tus preferencias */
+}
+/* Contenedor principal */
+.container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 10px; /* Reduje el espacio interior del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+/* Tabla de resultados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    font-size: 14px; /* Reduje el tamaño de fuente de la tabla */
+}
+
+th, td {
+    padding: 8px; /* Reduje el espacio entre celdas */
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Contenedor de botones */
+.botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+/* Estilo específico para el botón de búsqueda */
+#buscar {
+    background-color: #007bff;
+}
+
+
+
+/* Estilos para el campo de búsqueda */
+#idBusqueda {
+    padding: 5px;
+    width: 100%;
+}
+

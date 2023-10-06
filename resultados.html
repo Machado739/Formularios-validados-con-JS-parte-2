@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Envíos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container">
+    
+    <h1>Resultados de Envíos</h1>
+    <div class="botones">
+        <div class="buscar">
+            <input type="text" id="idBusqueda" placeholder="ID a buscar">
+            <button id="buscar">Buscar</button>
+        </div>
+        <button id="agregar" href="index.html">Agregar más registros</button> 
+        <button id="borrar" class="borrar-todos">Borrar todos los registros</button> 
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Correo Electrónico</th>
+                <th>Edad</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaResultados">
+            <!-- Aquí se agregarán las filas de la tabla con los resultados -->
+        </tbody>
+    </table>
+
+  
+
+    <!-- Enlace para volver a la página principal -->
+ 
+
+    <script src="scriptResultados.js"></script>
+</body>
+</html>
